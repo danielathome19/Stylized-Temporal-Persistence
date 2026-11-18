@@ -1,0 +1,16 @@
+{
+  "stage": "feasibility_only",
+  "engine": "4.8.beta3.official.c51ff06e8",
+  "backend": "vulkan",
+  "resolution": [640, 360],
+  "format": "RGBA32F probe image; scene format not yet audited",
+  "method": "compute_and_compositor_probe",
+  "scene": "procedural_box",
+  "seed": 0,
+  "target_frame_schedule": "unconstrained; 40 engine iterations",
+  "history_schedule": null,
+  "kernel_parameters": null,
+  "latency_policy": "not_applicable",
+  "warm_up": 0,
+  "measurement_policy": "no_performance_claims"
+}

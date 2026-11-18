@@ -1,0 +1,14 @@
+{
+  "algorithm": "global_lifetime_aware_history",
+  "tile": 16,
+  "history": 10,
+  "slot_multiplier": 3.0,
+  "period_us": 50000,
+  "half_life_s": 0.25,
+  "exact_tile_reuse": true,
+  "pressure_policy": "global_minimum_incremental_lifetime_error",
+  "reconstruction": "native_motion_depth_forward_scatter",
+  "presentation": "held_normalized_finite_history",
+  "near": 0.1,
+  "far": 100.0
+}

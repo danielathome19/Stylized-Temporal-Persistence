@@ -1,0 +1,16 @@
+{
+  "engines": [
+    {
+      "version": "4.7.2.stable.official.ed1daf0bf",
+      "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_win64.exe.zip",
+      "path": "experiments/tools/Godot_v4.7.2-stable_win64.exe",
+      "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+    },
+    {
+      "version": "4.8.beta3.official.c51ff06e8",
+      "url": "https://github.com/godotengine/godot-builds/releases/download/4.8-beta3/Godot_v4.8-beta3_win64.exe.zip",
+      "path": "Godot_v4.8-beta3_win64.exe",
+      "sha256": "0467d13b5656fb324acc1292e579526fae2b5b2199217acbf1507c4fa97ace24"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+godot/.godot/
+*.exe
+experiments/tools/*.zip
+results/raw/*
+results/figures/*
+results/processed/*
+godot/assets/private/*
+!godot/assets/private/ATTRIBUTION.md

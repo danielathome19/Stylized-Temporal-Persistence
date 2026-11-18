@@ -1,0 +1,20 @@
+{
+  "scope": "Empirical evaluation of finite-history storage; no novelty or overall-rendering-speed claim",
+  "history": 10,
+  "history_hz": 20,
+  "half_life_ms": 250,
+  "native_resolutions": [[1280,720],[1920,1080]],
+  "native_scenes": ["rotation","camera"],
+  "native_capture_count": 16,
+  "formats": ["rgba32f","rgba16f","rgba8"],
+  "performance_repetitions": 5,
+  "warmup_frames_min": 120,
+  "warmup_seconds_min": 2,
+  "measurement_frames_min": 300,
+  "measurement_seconds_min": 10,
+  "sparse_native_pilot_max_capture_ms": 50,
+  "sparse_native_pilot_policy": "If median exceeds 50ms, report feasibility failure relative to the 20Hz capture budget; do not launch expensive repeated-throughput runs. Preserve all pilot durations. This does not establish statistical equivalence or general impossibility.",
+  "precision_equivalence_policy": "No predeclared perceptual equivalence margin; report numerical error and Pareto fronts, no matched-fidelity significance claim",
+  "claims": ["conditional memory/accuracy tradeoffs", "implementation cost and failure analysis", "primary-source related-work synthesis"],
+  "exclusions": ["human perception", "universal sparse-storage impossibility", "firstness", "bit-exact N64 replication", "physical residency", "multi-GPU generality"]
+}
