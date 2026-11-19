@@ -1,7 +1,7 @@
 # Finite-history temporal persistence experiments
 
 Godot compute implementations and Python experiment/reference code. Used in the following paper:
- * "Temporal Persistence for Stylized Rendering: Historical Image Storage and Reconstruction" (DOI: [TBD](https://doi.org/10.48550/arXiv.2611.13918)) 
+ * "Temporal Persistence for Stylized Rendering: Historical Image Storage and Reconstruction" (DOI: [TBD](https://doi.org/10.48550/arXiv.2611.00000)) 
 
 
 ## Layout
